@@ -18,6 +18,9 @@
         </activity>
         <activity android:name=".ActivityStudentLogin"/>
         <activity android:name=".ActivityStaffLogin"/>
+        <activity android:name=".ActivityChoice"/>
+        <activity android:name=".ActivityNonAcademic"/>
+        <activity android:name=".ActivityAcademic"/>
     </application>
 
 </manifest>

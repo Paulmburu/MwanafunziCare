@@ -41,6 +41,7 @@
         android:layout_height="wrap_content">
         <Button
             android:text="LOGIN"
+            android:id="@+id/button_staff_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 

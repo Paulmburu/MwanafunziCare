@@ -11,25 +11,25 @@ import android.widget.Button;
  * Created by Paul Mburu on 11/4/18.
  */
 
-public class ActivityStudentLogin extends AppCompatActivity {
+public class ActivityChoice extends AppCompatActivity{
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_student_login);
-        Button staffOptionButton=(Button)findViewById(R.id.staff_option_button);
-        staffOptionButton.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_choice);
+        Button academicButton=(Button)findViewById(R.id.academic_button_id);
+        academicButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(ActivityStudentLogin.this,ActivityStaffLogin.class);
+                Intent i=new Intent(ActivityChoice.this,ActivityAcademic.class);
                 startActivity(i);
             }
         });
 
-        Button buttonLogin=(Button)findViewById(R.id.button_student_login);
-        buttonLogin.setOnClickListener(new View.OnClickListener() {
+        Button nonAcademicButton=(Button)findViewById(R.id.non_academic_button_id);
+        nonAcademicButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(ActivityStudentLogin.this,ActivityChoice.class);
+                Intent i=new Intent(ActivityChoice.this,ActivityNonAcademic.class);
                 startActivity(i);
             }
         });
