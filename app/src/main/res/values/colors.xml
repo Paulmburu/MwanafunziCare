@@ -3,4 +3,19 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <array name="mdcolor_random">
+        <item type="color">#C2185B</item>
+        <item type="color">#7B1FA2</item>
+        <item type="color">#C62828</item>
+        <item type="color">#689F38</item>
+        <item type="color">#558B2F</item>
+        <item type="color">#006064</item>
+        <item type="color">#0D47A1</item>
+        <item type="color">#009688</item>
+        <item type="color">#00695C</item>
+        <item type="color">#D84315</item>
+        <item type="color">#37474F</item>
+        <item type="color">#E65100</item>
+    </array>
 </resources>
